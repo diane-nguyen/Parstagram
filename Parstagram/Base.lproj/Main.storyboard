@@ -16,13 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Parstagram" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Laj-bf-bsA">
-                                <rect key="frame" x="81" y="153" width="252" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="50"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q83-Ka-aGF">
                                 <rect key="frame" x="31" y="285" width="97" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -71,6 +64,10 @@
                                     <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hFl-Yk-5k7"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="sKF-8I-g6E">
+                                <rect key="frame" x="78" y="130" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -128,7 +125,7 @@
                                                 <constraint firstItem="nDN-oU-at1" firstAttribute="top" secondItem="9wc-rp-xVN" secondAttribute="bottom" constant="12" id="0Oy-i1-dnS"/>
                                                 <constraint firstAttribute="trailing" secondItem="9wc-rp-xVN" secondAttribute="trailing" constant="8" id="CwG-Gz-9Rf"/>
                                                 <constraint firstItem="A2N-nf-ED1" firstAttribute="top" secondItem="9wc-rp-xVN" secondAttribute="bottom" constant="8" id="Ois-b1-2Da"/>
-                                                <constraint firstItem="nDN-oU-at1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="A2N-nf-ED1" secondAttribute="trailing" constant="8" id="S6f-7P-kJ9"/>
+                                                <constraint firstItem="nDN-oU-at1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="A2N-nf-ED1" secondAttribute="trailing" constant="4" id="S6f-7P-kJ9"/>
                                                 <constraint firstAttribute="trailing" secondItem="nDN-oU-at1" secondAttribute="trailing" constant="238.5" id="cvT-Bs-Mou"/>
                                                 <constraint firstItem="A2N-nf-ED1" firstAttribute="bottom" secondItem="F9F-j3-J0p" secondAttribute="bottomMargin" constant="8" id="ek9-tL-G7S"/>
                                                 <constraint firstItem="9wc-rp-xVN" firstAttribute="top" secondItem="F9F-j3-J0p" secondAttribute="top" constant="8" id="gS7-6l-8cR"/>
@@ -235,6 +232,7 @@
     <resources>
         <image name="image_placeholder" width="375" height="375"/>
         <image name="insta_camera_btn" width="25" height="25"/>
+        <image name="instagram_logo" width="255" height="108"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
