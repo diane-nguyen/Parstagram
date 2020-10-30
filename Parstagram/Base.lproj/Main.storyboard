@@ -40,7 +40,7 @@
                                 <rect key="frame" x="31" y="422" width="334" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdX-FX-5kz">
                                 <rect key="frame" x="68" y="508" width="60" height="36"/>
@@ -108,25 +108,25 @@
                                                         <constraint firstAttribute="width" secondItem="9wc-rp-xVN" secondAttribute="height" multiplier="398:441" id="BA7-kJ-t5k"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doug" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2N-nf-ED1" userLabel="usernameLabel">
-                                                    <rect key="frame" x="8" y="457" width="43.5" height="28"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Doug" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2N-nf-ED1" userLabel="usernameLabel">
+                                                    <rect key="frame" x="8" y="453" width="43.5" height="28"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Woof woof!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDN-oU-at1" userLabel="captionLabel">
-                                                    <rect key="frame" x="79" y="461" width="96.5" height="20"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="Woof woof!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nDN-oU-at1" userLabel="captionLabel">
+                                                    <rect key="frame" x="69" y="457" width="96.5" height="20"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="nDN-oU-at1" firstAttribute="top" secondItem="9wc-rp-xVN" secondAttribute="bottom" constant="12" id="0Oy-i1-dnS"/>
+                                                <constraint firstItem="nDN-oU-at1" firstAttribute="top" secondItem="9wc-rp-xVN" secondAttribute="bottom" constant="8" id="0Oy-i1-dnS"/>
                                                 <constraint firstAttribute="trailing" secondItem="9wc-rp-xVN" secondAttribute="trailing" constant="8" id="CwG-Gz-9Rf"/>
                                                 <constraint firstItem="A2N-nf-ED1" firstAttribute="top" secondItem="9wc-rp-xVN" secondAttribute="bottom" constant="8" id="Ois-b1-2Da"/>
                                                 <constraint firstItem="nDN-oU-at1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="A2N-nf-ED1" secondAttribute="trailing" constant="4" id="S6f-7P-kJ9"/>
-                                                <constraint firstAttribute="trailing" secondItem="nDN-oU-at1" secondAttribute="trailing" constant="238.5" id="cvT-Bs-Mou"/>
+                                                <constraint firstAttribute="trailing" secondItem="nDN-oU-at1" secondAttribute="trailing" constant="248.5" id="cvT-Bs-Mou"/>
                                                 <constraint firstItem="A2N-nf-ED1" firstAttribute="bottom" secondItem="F9F-j3-J0p" secondAttribute="bottomMargin" constant="8" id="ek9-tL-G7S"/>
                                                 <constraint firstItem="9wc-rp-xVN" firstAttribute="top" secondItem="F9F-j3-J0p" secondAttribute="top" constant="8" id="gS7-6l-8cR"/>
                                                 <constraint firstItem="9wc-rp-xVN" firstAttribute="leading" secondItem="F9F-j3-J0p" secondAttribute="leading" constant="8" id="lkX-uc-B6L"/>
